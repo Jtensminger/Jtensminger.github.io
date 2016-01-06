@@ -1,0 +1,96 @@
+p, li {
+  font-size: 27px;
+}
+
+header {
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-top: 0px;
+  width: 100%;
+  padding: 50px 0%;
+  padding-bottom: 30px;
+  background-color: #fafafa;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+#portrait {
+  order: 1;
+  height: 100px;
+  min-width: 100px;
+  position: relative;
+  margin-bottom: 1em;
+  left: calc(50% - 50px);
+  border-radius: 50%;
+  background: url("../images/portrait.jpeg") center;
+  background-size: 150px;
+  box-shadow: 5px grey;
+}
+
+.name {
+  left: 50%;
+}
+.description {
+  width: 100%;
+}
+
+.quote {
+  font-size: 21px;
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 25px
+}
+.contact .phone {
+  width: 100%;
+  font-size: inherit;
+}
+
+.contact .email {
+  width: 100%;
+  font-size: inherit;
+}
+
+body {
+  /*background-color: red;*/
+  padding: 0;
+}
+
+.ability {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+.life {
+  padding: 0;
+}
+
+.skills {
+  width: 100%;
+}
+
+.gems {
+  width: 100%;
+}
+
+.socialMedia {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+/*body {
+  background-color: orange;
+}*/
