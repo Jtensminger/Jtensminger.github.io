@@ -91,6 +91,14 @@ body {
   position: relative;
 }
 
-/*body {
-  background-color: orange;
-}*/
+.experience {
+  order: 7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.work{
+  width: 100%;
+  flex-direction: row;
+}

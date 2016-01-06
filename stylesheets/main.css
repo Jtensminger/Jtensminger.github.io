@@ -154,6 +154,12 @@ p.name {
 }
 .experience {
   order: 7;
+  display: flex;
+  flex-direction: row;
+}
+
+.work {
+width: 50%;
 }
 
 .socialMedia {
