@@ -30,7 +30,9 @@ ol {
 .interests li {
   color: rgba(0,0,0,0.6)
 }
-
+.interests, .education {
+  padding: 0;
+}
 li {
   padding: 0px;
   margin-top: 0px;
@@ -137,10 +139,14 @@ p.name {
 }
 .interests {
   order: 4;
+  width: 100%;
+  padding: 0 25%;
 }
 
 .education {
   order: 5;
+  width: 100%;
+  padding: 0 25%;
 }
 
 .skills {
@@ -150,7 +156,7 @@ p.name {
 
 .gems {
   order: 8;
-  width: 50%;
+  width: 100%;
 }
 .experience {
   order: 7;

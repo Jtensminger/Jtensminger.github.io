@@ -6,7 +6,15 @@
     <link rel="stylesheet" type="text/css" media="only screen and (max-width : 720px)" href="stylesheets/small-viewport.css" />
     <link rel="stylesheet" type="text/css" media="only screen and (min-width : 721px) and (max-width : 1670px)" href="stylesheets/medium-viewport.css" />
     <link rel="icon" href="images/@.png">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+      $(function(){
+          $("#typed").typed({
+              stringsElement: $('#typed-strings')
+          });
+      });
+    </script>
     <title>Learn Me Silly</title>
   </head>
   <body class="container">
@@ -22,37 +30,30 @@
       <div id="portrait"></div>
       <div class="about">
         <p class="name">Joseph Ensminger</p>
-        <p class="description">I'm a software developer with a <a href="https://medium.com/@Jtensminger">@story</a> that's pretty interesting. I love to <a href="https://www.coursera.org/">@learn</a> about everything. I make my own path. I enjoy drinking coffee and will talk about almost anything, especially technology. </p>
+        <div id="typed-strings">
+          <p>I'm a software developer with a <a href="https://medium.com/@Jtensminger">@story</a> that's pretty interesting. I love to <a href="https://www.coursera.org/">@learn</a> about everything. I make my own path. I enjoy drinking coffee and will talk about almost anything, especially technology. </p>
+        </div>
+        <p id="typed" class="description"></p>
         <p class="quote">'Live as if you were to die tomorrow. Learn as if you were to live forever.' - Mahatma Gandhi</p>
         <p class="quote">'Failure is just a resting place. It is an opportunity to begin again more intelligently.' - Henry Ford</p>
         <div class="contact">
-          <p class="phone">Phone: 423-736-1138</p>
+          <a class="phone" href="tel:+4237361138">Call Me: 423-736-1138</a>
           <p class="email">Email: me@josephensminger.com</p>
         </div>
       </div>
     </header>
 
     <div class="life">
-      <div class="interests">
-        <h1>Interests</h1>
-        <ul>
-          <li>Machine Learning - Self Driving Cars</li>
-          <li>Artificial Intelligence - Siri, Cortana, and Google Now</li>
-          <li>Economics - Supply and Demand</li>
-          <li>E-Sports</li>
-        </ul>
-      </div>
-
-      <div class="education">
-        <h1>Education</h1>
-        <p>The Iron yard Academy<p>
-        <p>I learned how to architect, create, and maintain back-end tech stacks. Researching, critical thinking, coffee, lack of sleep, and pair programming were all critical to my success. Most importantly, I learned how to learn.</p>
-      </div>
-
       <div class="experience">
         <div class="work">
           <h1>Experience</h1>
           <ul>
+            <li>Independent Software Projects</li>
+            <ol>
+              <a href="https://github.com/Jtensminger/Snailephant"><li>Snailephant</li></a>
+              <a href="https://github.com/Jtensminger/twitter_api"><li>Twitter API</li></a>
+              <a href="https://github.com/TIY-Nashville-Rails/ironstack"><li>Iron Stack</li></a>
+            </ol>
             <li>Server</li>
             <ol>
               <li>Longhorn Steakhouse</li>
@@ -62,12 +63,6 @@
             <ol>
               <li>Ingle's Markets</li>
               <li>Food City</li>
-            </ol>
-            <li>Independent Software Projects</li>
-            <ol>
-              <a href="https://github.com/Jtensminger/Snailephant"><li>Snailephant</li></a>
-              <a href="https://github.com/Jtensminger/twitter_api"><li>Twitter API</li></a>
-              <a href="https://github.com/TIY-Nashville-Rails/ironstack"><li>Iron Stack</li></a>
             </ol>
           </ul>
         </div>
@@ -87,9 +82,25 @@
         </div>
       </div>
     </div>
+      <div class="interests">
+        <h1>Interests</h1>
+        <ul>
+          <li>Machine Learning - Self Driving Cars</li>
+          <li>Artificial Intelligence - Siri, Cortana, and Google Now</li>
+          <li>Economics - Supply and Demand</li>
+          <li>E-Sports</li>
+        </ul>
+      </div>
+
+      <div class="education">
+        <h1>Education</h1>
+        <p>The Iron yard Academy<p>
+        <p>I learned how to architect, create, and maintain back-end tech stacks. Researching, critical thinking, coffee, lack of sleep, and pair programming were all critical to my success. Most importantly, I learned how to learn.</p>
+      </div>
+
+
 
     <div class="ability">
-
       <div class="gems">
         <h1>Favorite Gems</h1>
         <ul>

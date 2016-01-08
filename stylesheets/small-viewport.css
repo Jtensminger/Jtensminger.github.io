@@ -75,11 +75,15 @@ body {
 .skills {
   width: 100%;
 }
-
+.skills li {
+  margin-bottom: 2%;
+}
 .gems {
   width: 100%;
 }
-
+.interests, .education {
+  padding: 0;
+}
 .socialMedia {
   display: flex;
   flex-flow: column wrap;

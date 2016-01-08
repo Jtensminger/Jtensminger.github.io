@@ -6,7 +6,27 @@ html {
   list-style: 1.58;
   letter-spacing: -0.003em;
 }
-
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 header {
   margin-top: 0px;
   width: 100%;
@@ -14,7 +34,9 @@ header {
   padding-bottom: 30px;
   background-color: #fafafa;
 }
+.headerPicture {
 
+}
 ul {
   list-style: none;
   padding: 0px;
@@ -34,12 +56,13 @@ ol {
 li {
   padding: 0px;
   margin-top: 0px;
+  font-weight:
 }
 
 h1 {
-  /*color: rgba(0,0,0,0.8);*/
   color: #00ab6b;
   margin-bottom: 0px;
+  font-weight: 300;
 }
 
 
@@ -98,6 +121,7 @@ p.name {
 .description {
   width: 85%;
   margin-top: 4px;
+  margin-bottom: 0px;
   outline: 0;
   color: rgba(0,0,0,0.6);
 }
@@ -120,27 +144,32 @@ p.name {
 }
 
 .contact {
-  display: flex;
+  display: block;
   flex-direction: row;
   margin-bottom: 0px;
 }
+
 .contact .phone {
   color: rgba(0,0,0,0.8);
-  width: 30%;
+  width: 100%;
   margin: inherit;
 }
 
 .contact .email {
   color: rgba(0,0,0,0.8);
-  width: 70%;
+  width: 100%;
   margin: inherit;
 }
 .interests {
   order: 4;
+  padding: 0 33%;
+  width: 100%;
 }
 
 .education {
   order: 5;
+  width: 100%;
+  padding: 0 33%;
 }
 
 .skills {
