@@ -57,6 +57,7 @@ ol {
 li {
   padding: 0px;
   margin-top: 0px;
+  margin-bottom: 10px;
   font-weight:
 }
 
@@ -172,6 +173,7 @@ p.name {
   order: 5;
   width: 100%;
   padding: 0 33%;
+  flex-wrap: wrap;
 }
 
 .skills {
@@ -181,7 +183,7 @@ p.name {
 
 .gems {
   order: 8;
-  width: 50%;
+  width: 100%;
 }
 .experience {
   order: 7;
@@ -202,7 +204,6 @@ width: 50%;
   display: block;
   content: "";
 }
-
 
 .socialMedia .socialIcon {
   float: left;
@@ -241,4 +242,49 @@ width: 50%;
 
 .Github {
   background-image: url("../images/GitHub.png");
+}
+
+.projects {
+  padding: 0 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.snailephant {
+  background-image: url("../images/snailephant.png");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  box-shadow: 7px 7px 5px #888888;
+  margin-bottom: 10px;
+}
+
+.ironstack {
+  background-image: url("../images/Ironstack.png");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  box-shadow: 7px 7px 5px #888888;
+  margin-bottom: 10px;
+}
+
+.weatherapp {
+  background-image: url("../images/twitterAPI.png");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  box-shadow: 7px 7px 5px #888888;
+  margin-bottom: 10px;
+}
+
+.PD {
+  font-size: 17px;
+  width: 33%;
+}
+
+.PT {
+  padding: 0 40%;
+  margin-bottom: 20px;
 }

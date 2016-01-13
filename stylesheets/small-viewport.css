@@ -106,3 +106,21 @@ body {
   width: 100%;
   flex-direction: row;
 }
+
+.projects {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects .PD a div{
+align-content: center;
+}
+
+.PT {
+  padding: 0;
+}
+.PD {
+  width: 100%;
+}
